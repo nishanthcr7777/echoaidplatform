@@ -3,6 +3,8 @@
 🎯 Problem Statement #2 – Unlocking Access: The Digital Companion for Social Welfare
 https://echoaidplatform-bmf7.vercel.app/
 (sign in anonymously for skipping sing up(optional)
+please take a minute of your time to watch the walkthrough video of the live demo
+https://drive.google.com/drive/folders/1Dz84rvDXuQOVdYjuZBU3f8pdcIeJdoU8?usp=sharing
 ---
 
 ## 🔎 Overview
@@ -48,6 +50,7 @@ Accessible via simple phone calls or WhatsApp voice notes, EchoAid removes barri
 git clone https://github.com/nishanthcr7777/echoaidplatform.git
 cd echoaidplatform
 npm install
+npm install npm-run-all --save-dev
 npm run dev
 
 * Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
