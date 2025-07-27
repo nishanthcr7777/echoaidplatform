@@ -40,9 +40,9 @@ Accessible via simple phone calls or WhatsApp voice notes, EchoAid removes barri
 - Database: Firebase / Google Sheets / Airtable
 - Hosting: Vercel / Render (MVP scope)
 - Languages Supported: Hindi, English,under development- Tamil, Telugu, Kannada, Marathi, Bengali
-- maps under development
+- maps support available (some recent locations may not be taken from user ,scrool dow to find maps of users)
 
----
+----
 
 ## 🚀 Getting Started (Local)
 
