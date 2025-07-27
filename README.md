@@ -1,26 +1,53 @@
-# EchoAid Admin Dashboard
-  
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
- You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
-  
-This project is connected to the Convex deployment named [`deafening-herring-912`](https://dashboard.convex.dev/d/deafening-herring-912).
-  
-## Project structure
-  
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
-  
-The backend code is in the `convex` directory.
-  
-`npm run dev` will start the frontend and backend servers.
+# EchoAid – Voice-first AI Platform for Social Welfare Access  
+👥 Built by Team Hexecutioners | HackaTone Round 1 Submission  
+🎯 Problem Statement #2 – Unlocking Access: The Digital Companion for Social Welfare
 
-## App authentication
+---
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+## 🔎 Overview
 
-## Developing and deploying your app
+**EchoAid** is a voice-first, multilingual AI system designed to connect India's most marginalized populations—such as migrant workers, trans individuals, the homeless, and undocumented citizens—to critical government welfare schemes, emergency aid, and verified NGOs.
 
-Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
-* If you're new to Convex, the [Overview](https://docs.convex.dev/understanding/) is a good place to start
+Accessible via simple phone calls or WhatsApp voice notes, EchoAid removes barriers of language, literacy, identity documents, and digital access. It is empathy-driven, privacy-conscious, and tailored for real-world conditions (even 2G networks and feature phones).
+
+---
+
+## 🌍 Core Features
+
+| Feature                     | Description |
+|----------------------------|-------------|
+| 🗣️ **Voice Input**         | Accepts natural speech input like “I lost my job”, “I need food”, or “I need shelter”. |
+| 🧠 **AI Intent Detection** | Maps spoken needs to matching welfare schemes or emergency services. |
+| 🌐 **Multilingual Support**| Works across Hindi, Tamil, Telugu, Kannada, Marathi, Bengali, and English. |
+| 📍 **Location Mapping**    | Triangulates city or village to suggest local services or NGOs. |
+| 🚨 **Emergency Assist**    | Connects to hotlines or local crisis partners instantly. |
+| 🆔 **Flexible ID Options** | Supports users even without Aadhaar, using verbal consent or community validation. |
+| 👨‍💻 **Admin Dashboard**   | Real-time view of active calls, rerouting logic, intent detection, and manual overrides. |
+| 📊 **Analytics Panel**     | Live stats on user intents, locations, and language use. |
+
+---
+
+## 🖥️ MVP Architecture
+
+- Frontend: React (Admin Dashboard)
+- Backend: Python + FastAPI / Flask
+- Voice Input: Simulated textbox or Twilio IVR (planned)
+- NLP: OpenAI GPT-4 or Dialogflow CX for intent detection
+- TTS: Bhashini / Google TTS (placeholder)
+- Database: Firebase / Google Sheets / Airtable
+- Hosting: Vercel / Render (MVP scope)
+- Languages Supported: Hindi, English, Tamil, Telugu, Kannada, Marathi, Bengali
+
+---
+
+## 🚀 Getting Started (Local)
+
+```bash
+git clone https://github.com/nishanthcr7777/echoaidplatform.git
+cd echoaidplatform
+npm install
+npm run dev
+
 * Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
 * Read the [Best Practices](https://docs.convex.dev/understanding/best-practices/) guide for tips on how to improve you app further
 
