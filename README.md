@@ -1,7 +1,8 @@
 # EchoAid – Voice-first AI Platform for Social Welfare Access  
 👥 Built by Team Hexecutioners | HackaTone Round 1 Submission  
 🎯 Problem Statement #2 – Unlocking Access: The Digital Companion for Social Welfare
-
+https://echoaidplatform-bmf7.vercel.app/
+(sign in anonymously for skipping sing up(optional)
 ---
 
 ## 🔎 Overview
@@ -36,7 +37,8 @@ Accessible via simple phone calls or WhatsApp voice notes, EchoAid removes barri
 - TTS: Bhashini / Google TTS (placeholder)
 - Database: Firebase / Google Sheets / Airtable
 - Hosting: Vercel / Render (MVP scope)
-- Languages Supported: Hindi, English, Tamil, Telugu, Kannada, Marathi, Bengali
+- Languages Supported: Hindi, English,under development- Tamil, Telugu, Kannada, Marathi, Bengali
+- maps under development
 
 ---
 
