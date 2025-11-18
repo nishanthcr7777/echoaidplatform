@@ -1,11 +1,5 @@
 # EchoAid – Voice-first AI Platform for Social Welfare Access  
-👥 Built by Team Hexecutioners | HackaTone Round 1 Submission  
-🎯 Problem Statement #2 – Unlocking Access: The Digital Companion for Social Welfare
-https://echoaidplatform-bmf7.vercel.app/
-(sign in anonymously for skipping sing up(optional)
-please take a minute of your time to watch the walkthrough video of the live demo
-https://drive.google.com/drive/folders/1Dz84rvDXuQOVdYjuZBU3f8pdcIeJdoU8?usp=sharing
----
+
 
 ## 🔎 Overview
 
